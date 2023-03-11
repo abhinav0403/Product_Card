@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --darkGreen: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --gray: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+    --head: 2rem;
+    --text: 1rem;
+}
+
+.wrapper {
+    background-color: antiquewhite;
+    height: 100vh;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    border: 0px solid white;
+    height: 400px;
+    width: 40%;
+    border-radius: 25px;
+    background-color: rgb(253, 253, 253);
+
+}
+
+.desktop_img {
+    display: block;
+    height: 100%;
+    width: 310px;
+    /* width:120%; */
+    border-radius: 1em 1em 1em 1em;
+}
+
+
+
+.card_text {
+    /* text-align: left; */
+    margin: 1.5em 2em;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 255px;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+}
+
+.mug {
+    font-size: var(--text);
+    color: var(--gray);
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.heading {
+    font-size: var(--head);
+    font-weight: 700;
+    font-family: "Fraunces", serif;
+    line-height: 1;
+    margin: 0.6em 0 0.7em 0;
+}
+
+.description {
+    width: 100%;
+    /* font-size: var(--text); */
+    color: var(--gray);
+    /* font-weight: 500; */
+    margin-bottom: 1.5em;
+}
+
+.product_title {
+    font-size: var(--head);
+    font-weight: 700;
+    font-family: "Fraunces", serif;
+    line-height: 1;
+    margin: 0.6em 0 0.7em 0;
+  }
+
+.green_text {
+    margin-right: 0.3em;
+    color: var(--darkGreen);
+  }
+
+.strike {
+    text-decoration: line-through;
+    align-self: center;
+  }
+
+  .btn {
+    display: block;
+    margin: 3em 0 1em 0;
+    background-color: var(--darkGreen);
+    width: 100%;
+    padding: 1em 0;
+    color: var(--white);
+    border: 0;
+    border-radius: 0.7em;
+    outline: none;
+    cursor: pointer;
+    /* font-family: "Montserrat", sans-serif; */
+  }
+
+.btn:hover {
+    background-color: hsl(156, 24%, 24%);
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .btn_img {
+    margin-right: 1em;
+    max-width: 100%;
+  }
+  .btn_text {
+    color: var(--white);
+    font-family: "Montserrat", sans-serif;
+  }
+
+  
